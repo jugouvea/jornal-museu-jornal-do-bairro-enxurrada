@@ -1,0 +1,47 @@
+header{
+    background-color: white;
+}
+#tituloprincipal{
+    color:white;
+    text-align: center;
+    font-family: Didot, serif;
+    font-size: 30px; 
+    display: inline-block;
+    margin-left: 300px;  
+}
+nav{
+    background-color: rgb(31, 26, 21);
+}
+ul{
+    color: white;
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: rgb(219, 190, 59);   
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+.tatu{
+    width: 200px;
+    display: inline-block;
+}
+footer{
+    background-color: rgb(31, 26, 21);
+    color: white;
+    text-align: center;
+    padding: 13px;
+    border: 5px solid rgb(219, 190, 59);
+}
+.oqmuseu{
+    
+}
+.conhecendoomuseu{
+    display: block;
+    background-color: rgb(219, 190, 59);
+    padding: 20px;
+}
+main{
+    background-color: white;
+}
