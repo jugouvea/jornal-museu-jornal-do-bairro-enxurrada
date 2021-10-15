@@ -6,11 +6,31 @@ header{
     text-align: center;
     font-family: Didot, serif;
     font-size: 30px; 
-    display: inline-block;
-    margin-left: 300px;  
+    margin-left: 300px; 
+}
+.tatu{
+    width: 200px;   
+}
+.tatu:hover{
+    transform: scale(1.1);
+}
+.inicio{
+    display: flex;
+    align-items: center;
 }
 nav{
     background-color: rgb(31, 26, 21);
+
+}
+.redes{
+    width: 40px;
+    position: absolute;  
+    right: 100px;
+    top: 30px;
+    justify-content: space-evenly;
+}
+.redes:hover{
+    transform: translate(5px);
 }
 ul{
     color: white;
@@ -23,16 +43,19 @@ body{
     background-color: rgb(255, 255, 255);
     margin: 0%;
 }
-.tatu{
-    width: 200px;
-    display: inline-block;
+main{
+    background-color: white;
+    margin: auto;
+    width: 960px;
 }
+
 footer{
     background-color: rgb(31, 26, 21);
     color: white;
     text-align: center;
     padding: 13px;
-    border: 5px solid rgb(219, 190, 59);
+    border-top: 17px solid rgb(219, 190, 59);
+    display: flex;
 }
 .oqmuseu{
     
@@ -41,7 +64,4 @@ footer{
     display: block;
     background-color: rgb(219, 190, 59);
     padding: 20px;
-}
-main{
-    background-color: white;
 }
